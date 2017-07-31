@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+
+	<!-- Meta -->
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="template/styles/css/style.css" />
+	<link rel="stylesheet" href="template/styles/css/responsive.css" />
+
+	<!-- Scripts -->
+	<script src="template/scripts/libs.js"></script>
+	<script src="template/scripts/common.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+	<!--[if lt IE 9]>
+			<script>
+				document.createElement('header');
+				document.createElement('nav');
+				document.createElement('main');
+				document.createElement('section');
+				document.createElement('article');
+				document.createElement('aside');
+				document.createElement('footer');
+			</script>
+	<![endif]-->
+</head>
+<body>
+	<header class="header">
+		<div class="panel container row">
+			<div class="header__logo col col-3">
+				<a href="/" class="logo">
+					<div class="logo__image"><img src="upload/logos/AeroConsulting.png" alt=""></div>
+					<div class="logo__content">
+						<div class="logo__title font-Magistral">АэроКонсалтинг</div>
+						<div class="logo__desc">Чартерные авиарейсы</div>
+					</div>
+				</a>
+			</div>
+			<div class="header__contacts col col-3">
+				<div class="phone"><i class="icon icon-phone-big"></i><a href="tel:88312113183">8 (831)211-31-83</a></div>
+				<address class="address"><i class="icon icon-marker-big"></i><p>603057, г. Н. Новгород,<br />Гагарина пр., 27, оф. 704</p></address>
+			</div>
+			<div class="header__search col col-3">
+				<div class="search">
+					<input type="text" class="search__input" placeholder="Поиск">
+					<button class="search__button"><i class="icon icon-magnifing-glass"></i></button>
+				</div>
+			</div>
+		</div>
+		<nav class="nav">
+			<div class="container">
+				<ul>
+					<li class="active"><a href="">О компании</a></li>
+					<li><a href="">Наши услуги</a></li>
+					<li><a href="">Авиапарк</a></li>
+					<li><a href="">Заказать чартер</a></li>
+					<li><a href="">Пассажирам</a></li>
+					<li><a href="">Фотогалерея</a></li>
+					<li><a href="">Новости</a></li>
+					<li><a href="">Контакты</a></li>
+					<li><a href="">Турагентство</a></li>
+					<li><a href="">Авиа и ж/д билеты</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="slider">
+			<div class="slider__list">
+				<div class="slider__item">
+					<div class="slider__image"><img src="upload/slider/1.png" alt=""></div>
+					<div class="slider__wrap">
+						<div class="slider__title font-Magistral">АэроКонсалтинг</div>
+						<div class="slider__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного</div>
+						<a href="" class="slider__button button button_orange">Заказать чартер</a>
+					</div>
+				</div>
+				<div class="slider__item">
+					<div class="slider__image"><img src="upload/slider/2.png" alt=""></div>
+					<div class="slider__wrap">
+						<div class="slider__title font-Magistral">АэроКонсалтинг</div>
+						<div class="slider__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного</div>
+						<a href="" class="slider__button button button_orange">Заказать чартер</a>
+					</div>
+				</div>
+				<div class="slider__item">
+					<div class="slider__image"><img src="upload/slider/3.png" alt=""></div>
+					<div class="slider__wrap">
+						<div class="slider__title font-Magistral">АэроКонсалтинг</div>
+						<div class="slider__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного</div>
+						<a href="" class="slider__button button button_orange">Заказать чартер</a>
+					</div>
+				</div>
+				<div class="slider__item">
+					<div class="slider__image"><img src="upload/slider/4.png" alt=""></div>
+					<div class="slider__wrap">
+						<div class="slider__title font-Magistral">АэроКонсалтинг</div>
+						<div class="slider__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного</div>
+						<a href="" class="slider__button button button_orange">Заказать чартер</a>
+					</div>
+				</div>
+				<div class="slider__item">
+					<div class="slider__image"><img src="upload/slider/5.png" alt=""></div>
+					<div class="slider__wrap">
+						<div class="slider__title font-Magistral">АэроКонсалтинг</div>
+						<div class="slider__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного</div>
+						<a href="" class="slider__button button button_orange">Заказать чартер</a>
+					</div>
+				</div>
+				<div class="slider__item">
+					<div class="slider__image"><img src="upload/slider/6.png" alt=""></div>
+					<div class="slider__wrap">
+						<div class="slider__title font-Magistral">АэроКонсалтинг</div>
+						<div class="slider__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного</div>
+						<a href="" class="slider__button button button_orange">Заказать чартер</a>
+					</div>
+				</div>
+				<div class="slider__item">
+					<div class="slider__image"><img src="upload/slider/7.png" alt=""></div>
+					<div class="slider__wrap">
+						<div class="slider__title font-Magistral">АэроКонсалтинг</div>
+						<div class="slider__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного</div>
+						<a href="" class="slider__button button button_orange">Заказать чартер</a>
+					</div>
+				</div>
+				<div class="slider__item">
+					<div class="slider__image"><img src="upload/slider/8.png" alt=""></div>
+					<div class="slider__wrap">
+						<div class="slider__title font-Magistral">АэроКонсалтинг</div>
+						<div class="slider__desc">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного</div>
+						<a href="" class="slider__button button button_orange">Заказать чартер</a>
+					</div>
+				</div>
+			</div>
+			<div class="slider__arrows"><div class="container"></div></div>
+			<div class="slider__dots"><div class="container"></div></div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="about">
+			<div class="container">
+				<div class="about__title title">Информация о компании</div>
+				<div class="about__text center">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</div>
+			</div>
+		</div>
+		<div class="advantages">
+			<div class="container">
+				<div class="advantages__title title">Преимущества работы</div>
+				<div class="advantages__list row">
+					<div class="advantages__col col col-5">
+						<div class="advantages__item">
+							<div class="advantages__icon"></div>
+							<p class="advantages__subtitle">Текст рыба</p>
+							<p class="advantages__text">Сайт рыбатекст поможет дизайнеру, верстальщику</p>
+						</div>
+					</div>
+					<div class="advantages__col col col-5">
+						<div class="advantages__item">
+							<div class="advantages__icon"></div>
+							<p class="advantages__subtitle">Текст рыба</p>
+							<p class="advantages__text">Сайт рыбатекст поможет дизайнеру, верстальщику</p>
+						</div>
+					</div>
+					<div class="advantages__col col col-5">
+						<div class="advantages__item">
+							<div class="advantages__icon"></div>
+							<p class="advantages__subtitle">Текст рыба</p>
+							<p class="advantages__text">Сайт рыбатекст поможет дизайнеру, верстальщику</p>
+						</div>
+					</div>
+					<div class="advantages__col col col-5">
+						<div class="advantages__item">
+							<div class="advantages__icon"></div>
+							<p class="advantages__subtitle">Текст рыба</p>
+							<p class="advantages__text">Сайт рыбатекст поможет дизайнеру, верстальщику</p>
+						</div>
+					</div>
+					<div class="advantages__col col col-5">
+						<div class="advantages__item">
+							<div class="advantages__icon"></div>
+							<p class="advantages__subtitle">Текст рыба</p>
+							<p class="advantages__text">Сайт рыбатекст поможет дизайнеру, верстальщику</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="services">
+			<div class="container">
+				<div class="services__title title">Услуги</div>
+				<div class="services__list row">
+					<div class="services__col col col-5">
+						<div class="services__item">
+							<div class="services__image"><img src="upload/services/1.png" alt=""></div>
+							<div class="services__subtitle subtitle">Самолеты</div>
+							<div class="services__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру</div>
+							<a href="" class="services__button button button_blue">Подробнее</a>
+						</div>
+					</div>
+					<div class="services__col col col-5">
+						<div class="services__item">
+							<div class="services__image"><img src="upload/services/2.png" alt=""></div>
+							<div class="services__subtitle subtitle">Вертолеты</div>
+							<div class="services__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру</div>
+							<a href="" class="services__button button button_blue">Подробнее</a>
+						</div>
+					</div>
+					<div class="services__col col col-5">
+						<div class="services__item">
+							<div class="services__image"><img src="upload/services/3.png" alt=""></div>
+							<div class="services__subtitle subtitle">Наземный транспорт</div>
+							<div class="services__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру</div>
+							<a href="" class="services__button button button_blue">Подробнее</a>
+						</div>
+					</div>
+					<div class="services__col col col-5">
+						<div class="services__item">
+							<div class="services__image"><img src="upload/services/4.png" alt=""></div>
+							<div class="services__subtitle subtitle">VIP - чартеры</div>
+							<div class="services__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру</div>
+							<a href="" class="services__button button button_blue">Подробнее</a>
+						</div>
+					</div>
+					<div class="services__col col col-5">
+						<div class="services__item">
+							<div class="services__image"><img src="upload/services/5.png" alt=""></div>
+							<div class="services__subtitle subtitle">Грузовые перевозки</div>
+							<div class="services__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру</div>
+							<a href="" class="services__button button button_blue">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="order-gradient">
+			<div class="container">
+				<div class="order-gradient__wrap center">
+					<div class="order-gradient__title title">Оставьте заявку</div>
+					<div class="order-gradient__text">Оставьте заявку на заказ чартера и наши менеджеры свяжуться с Вами в ближайшее время</div>
+					<a href="" class="order-gradient__button button button_orange">Заказать чартер</a>
+				</div>
+			</div>
+		</div>
+		<div class="page">
+			<div class="page__title title">Новости</div>
+			<div class="page__wrap container">
+				<div class="news-detail row">
+					<div class="news-detail__content col">
+						<div class="news-detail__data">
+							<div class="news-detail__date"><i class="icon icon-calendar-white"></i><span>19 апреля 2017г</span></div>
+							<div class="news-detail__image"><img src="upload/news/0.png" alt=""></div>
+							<div class="news-detail__image-title">Вы можете заказать чартерный рейс онлайн</div>
+						</div>
+						<div class="news-detail__text">
+							<p>Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка. Lorem ipsum по большей части является элементом латинского текста классического автора и философа Цицерона. Слова и буквы были заменены добавлением или сокращением элементов, поэтому будет совсем неразумно пытаться передать содержание; это не гениально, не правильно, используется даже не понятный латинский.</p>
+							<p>Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка. Lorem ipsum по большей части является элементом латинского текста классического автора и философа Цице.</p>
+						</div>
+						<div class="news-detail__link"><a href="">Вернуться ко всем новостям</a></div>
+					</div>
+					<aside class="news-detail__list col right">
+						<div class="news-detail__item row">
+							<div class="news-detail__item-image col"><img src="upload/news/1.png" alt=""></div>
+							<div class="news-detail__item-content col ">
+								<div class="news-detail__item-title subtitle"><a href="">Вы можете заказать чартерный рейс онлайн</a></div>
+								<div class="news-detail__item-date"><i class="icon icon-calendar-red"></i><span>19.05.2017</span></div>
+							</div>
+						</div>
+						<div class="news-detail__item row">
+							<div class="news-detail__item-image col"><img src="upload/news/1.png" alt=""></div>
+							<div class="news-detail__item-content col ">
+								<div class="news-detail__item-title subtitle"><a href="">Вы можете заказать чартерный рейс онлайн</a></div>
+								<div class="news-detail__item-date"><i class="icon icon-calendar-red"></i><span>19.05.2017</span></div>
+							</div>
+						</div>
+						<div class="news-detail__item row">
+							<div class="news-detail__item-image col"><img src="upload/news/1.png" alt=""></div>
+							<div class="news-detail__item-content col ">
+								<div class="news-detail__item-title subtitle"><a href="">Вы можете заказать чартерный рейс онлайн</a></div>
+								<div class="news-detail__item-date"><i class="icon icon-calendar-red"></i><span>19.05.2017</span></div>
+							</div>
+						</div>
+						<div class="news-detail__item row">
+							<div class="news-detail__item-image col"><img src="upload/news/1.png" alt=""></div>
+							<div class="news-detail__item-content col">
+								<div class="news-detail__item-title subtitle"><a href="">Вы можете заказать чартерный рейс онлайн</a></div>
+								<div class="news-detail__item-date"><i class="icon icon-calendar-red"></i><span>19.05.2017</span></div>
+							</div>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</div>
+		<div class="page">
+			<div class="page__title title">Новости</div>
+			<div class="page__wrap container">
+				<div class="news">
+					<div class="news__list">
+						<div class="news__item row">
+							<div class="news__image col"><img src="upload/news/1.png" alt=""></div>
+							<div class="news__content col">
+								<div class="news__date"><i class="icon icon-calendar-blue"></i><span>19 апреля 2017г</span></div>
+								<div class="news__title subtitle">Вы можете заказать чартерный рейс онлайн</div>
+								<div class="news__text">Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка. Lorem ipsum по большей части является элементом латинского текста классического автора и философа Цицерона. Слова и буквы были заменены добавлением или сокращением элементов, поэтому будет совсем неразумно пытаться передать содержание; это не гениально, не правильно, используется даже не понятный латинский.</div>
+							</div>
+							<a href="" class="news__button button-list col block"><i class="icon icon-arrow-blue"></i><span>Подробнее</span></a>
+						</div>
+						<div class="news__item row">
+							<div class="news__image col"><img src="upload/news/1.png" alt=""></div>
+							<div class="news__content col">
+								<div class="news__date"><i class="icon icon-calendar-blue"></i><span>19 апреля 2017г</span></div>
+								<div class="news__title subtitle">Вы можете заказать чартерный рейс онлайн</div>
+								<div class="news__text">Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка. Lorem ipsum по большей части является элементом латинского текста классического автора и философа Цицерона. Слова и буквы были заменены добавлением или сокращением элементов, поэтому будет совсем неразумно пытаться передать содержание; это не гениально, не правильно, используется даже не понятный латинский.</div>
+							</div>
+							<a href="" class="news__button button-list col block"><i class="icon icon-arrow-blue"></i><span>Подробнее</span></a>
+						</div>
+						<div class="news__item row">
+							<div class="news__image col"><img src="upload/news/1.png" alt=""></div>
+							<div class="news__content col">
+								<div class="news__date"><i class="icon icon-calendar-blue"></i><span>19 апреля 2017г</span></div>
+								<div class="news__title subtitle">Вы можете заказать чартерный рейс онлайн</div>
+								<div class="news__text">Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка. Lorem ipsum по большей части является элементом латинского текста классического автора и философа Цицерона. Слова и буквы были заменены добавлением или сокращением элементов, поэтому будет совсем неразумно пытаться передать содержание; это не гениально, не правильно, используется даже не понятный латинский.</div>
+							</div>
+							<a href="" class="news__button button-list col block"><i class="icon icon-arrow-blue"></i><span>Подробнее</span></a>
+						</div>
+						<div class="news__item row">
+							<div class="news__image col"><img src="upload/news/1.png" alt=""></div>
+							<div class="news__content col">
+								<div class="news__date"><i class="icon icon-calendar-blue"></i><span>19 апреля 2017г</span></div>
+								<div class="news__title subtitle">Вы можете заказать чартерный рейс онлайн</div>
+								<div class="news__text">Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка. Lorem ipsum по большей части является элементом латинского текста классического автора и философа Цицерона. Слова и буквы были заменены добавлением или сокращением элементов, поэтому будет совсем неразумно пытаться передать содержание; это не гениально, не правильно, используется даже не понятный латинский.</div>
+							</div>
+							<a href="" class="news__button button-list col block"><i class="icon icon-arrow-blue"></i><span>Подробнее</span></a>
+						</div>
+						<div class="news__item row">
+							<div class="news__image col"><img src="upload/news/1.png" alt=""></div>
+							<div class="news__content col">
+								<div class="news__date"><i class="icon icon-calendar-blue"></i><span>19 апреля 2017г</span></div>
+								<div class="news__title subtitle">Вы можете заказать чартерный рейс онлайн</div>
+								<div class="news__text">Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка. Lorem ipsum по большей части является элементом латинского текста классического автора и философа Цицерона. Слова и буквы были заменены добавлением или сокращением элементов, поэтому будет совсем неразумно пытаться передать содержание; это не гениально, не правильно, используется даже не понятный латинский.</div>
+							</div>
+							<a href="" class="news__button button-list col block"><i class="icon icon-arrow-blue"></i><span>Подробнее</span></a>
+						</div>
+					</div>
+					<div class="pagination">
+						<ul>
+							<li class="td-none"><a href="">&laquo;</a></li>
+							<li class="td-none"><a href="">&lt;</a></li>
+							<li><a href="">1</a></li>
+							<li><a href="">2</a></li>
+							<li><a href="">3</a></li>
+							<li><a href="">4</a></li>
+							<li><a href="">5</a></li>
+							<li class="td-none"><a href="">&gt;</a></li>
+							<li class="td-none"><a href="">&raquo;</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page">
+			<div class="page__title title">Авиапарк</div>
+			<div class="page__wrap container">
+				<div class="catalog row">
+					<div class="catalog__list">
+						<div class="catalog__item row">
+							<div class="catalog__image col"><img src="upload/catalog/1.png" alt=""></div>
+							<div class="catalog__content col">
+								<div class="catalog__title subtitle">Вместимость до 50 кресел</div>
+								<div class="catalog__text">Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка.</div>
+							</div>
+							<a href="" class="catalog__button button-list col block"><i class="icon icon-arrow-blue"></i><span>Подробнее</span></a>
+						</div>
+						<div class="catalog__item row">
+							<div class="catalog__image col"><img src="upload/catalog/1.png" alt=""></div>
+							<div class="catalog__content col">
+								<div class="catalog__title subtitle">Вместимость до 120 кресел</div>
+								<div class="catalog__text">Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка.</div>
+							</div>
+							<a href="" class="catalog__button button-list col block"><i class="icon icon-arrow-blue"></i><span>Подробнее</span></a>
+						</div>
+						<div class="catalog__item row">
+							<div class="catalog__image col"><img src="upload/catalog/1.png" alt=""></div>
+							<div class="catalog__content col">
+								<div class="catalog__title subtitle">Вместимость до 150 кресел</div>
+								<div class="catalog__text">Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка.</div>
+							</div>
+							<a href="" class="catalog__button button-list col block"><i class="icon icon-arrow-blue"></i><span>Подробнее</span></a>
+						</div>
+						<div class="catalog__item row">
+							<div class="catalog__image col"><img src="upload/catalog/1.png" alt=""></div>
+							<div class="catalog__content col">
+								<div class="catalog__title subtitle">Грузовые</div>
+								<div class="catalog__text">Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка.</div>
+							</div>
+							<a href="" class="catalog__button button-list col block"><i class="icon icon-arrow-blue"></i><span>Подробнее</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page">
+			<div class="page__title title">Авиапарк</div>
+			<div class="page__wrap container">
+				<div class="avia">
+					<div class="avia__list">
+						<div class="avia__item">
+							<div class="avia__title"><i class="icon icon-plane-blue"></i><span>AGUSTA WESTLAND 109 POWER GRAND</span></div>
+							<div class="avia__desc">Частный чартерный самолет</div>
+							<div class="avia__content row">
+								<div class="avia__image col"><img src="upload/catalog/2.png" alt=""></div>
+								<div class="avia__data col row">
+									<div class="avia__data-item col">
+										<div class="avia__data-title"><i class="icon icon-bag-red"></i><span>Компоновка</span></div>
+										<div class="avia__data-content">1400 КГ / 3086 фунт</div>
+									</div>
+									<div class="avia__data-item col">
+										<div class="avia__data-title"><i class="icon icon-arrows"></i><span>Характеристики</span></div>
+										<div class="avia__data-content">340x129x130 CM / 11'1"x4'2"x4'3"</div>
+									</div>
+								</div>
+								<a href="" class="avia__button col block"><i class="icon icon-arrow-white"></i></a>
+							</div>
+						</div>
+						<div class="avia__item">
+							<div class="avia__title"><i class="icon icon-plane-blue"></i><span>AGUSTA WESTLAND 109 POWER GRAND</span></div>
+							<div class="avia__desc">Частный чартерный самолет</div>
+							<div class="avia__content row">
+								<div class="avia__image col"><img src="upload/catalog/2.png" alt=""></div>
+								<div class="avia__data col row">
+									<div class="avia__data-item col">
+										<div class="avia__data-title"><i class="icon icon-bag-red"></i><span>Компоновка</span></div>
+										<div class="avia__data-content">1400 КГ / 3086 фунт</div>
+									</div>
+									<div class="avia__data-item col">
+										<div class="avia__data-title"><i class="icon icon-arrows"></i><span>Характеристики</span></div>
+										<div class="avia__data-content">340x129x130 CM / 11'1"x4'2"x4'3"</div>
+									</div>
+								</div>
+								<a href="" class="avia__button col block"><i class="icon icon-arrow-white"></i></a>
+							</div>
+						</div>
+						<div class="avia__item">
+							<div class="avia__title"><i class="icon icon-plane-blue"></i><span>AGUSTA WESTLAND 109 POWER GRAND</span></div>
+							<div class="avia__desc">Частный чартерный самолет</div>
+							<div class="avia__content row">
+								<div class="avia__image col"><img src="upload/catalog/2.png" alt=""></div>
+								<div class="avia__data col row">
+									<div class="avia__data-item col">
+										<div class="avia__data-title"><i class="icon icon-bag-red"></i><span>Компоновка</span></div>
+										<div class="avia__data-content">1400 КГ / 3086 фунт</div>
+									</div>
+									<div class="avia__data-item col">
+										<div class="avia__data-title"><i class="icon icon-arrows"></i><span>Характеристики</span></div>
+										<div class="avia__data-content">340x129x130 CM / 11'1"x4'2"x4'3"</div>
+									</div>
+								</div>
+								<a href="" class="avia__button col block"><i class="icon icon-arrow-white"></i></a>
+							</div>
+						</div>
+						<div class="avia__item">
+							<div class="avia__title"><i class="icon icon-plane-blue"></i><span>AGUSTA WESTLAND 109 POWER GRAND</span></div>
+							<div class="avia__desc">Частный чартерный самолет</div>
+							<div class="avia__content row">
+								<div class="avia__image col"><img src="upload/catalog/2.png" alt=""></div>
+								<div class="avia__data col row">
+									<div class="avia__data-item col">
+										<div class="avia__data-title"><i class="icon icon-bag-red"></i><span>Компоновка</span></div>
+										<div class="avia__data-content">1400 КГ / 3086 фунт</div>
+									</div>
+									<div class="avia__data-item col">
+										<div class="avia__data-title"><i class="icon icon-arrows"></i><span>Характеристики</span></div>
+										<div class="avia__data-content">340x129x130 CM / 11'1"x4'2"x4'3"</div>
+									</div>
+								</div>
+								<a href="" class="avia__button col block"><i class="icon icon-arrow-white"></i></a>
+							</div>
+						</div>
+						<div class="avia__item">
+							<div class="avia__title"><i class="icon icon-plane-blue"></i><span>AGUSTA WESTLAND 109 POWER GRAND</span></div>
+							<div class="avia__desc">Частный чартерный самолет</div>
+							<div class="avia__content row">
+								<div class="avia__image col"><img src="upload/catalog/2.png" alt=""></div>
+								<div class="avia__data col row">
+									<div class="avia__data-item col">
+										<div class="avia__data-title"><i class="icon icon-bag-red"></i><span>Компоновка</span></div>
+										<div class="avia__data-content">1400 КГ / 3086 фунт</div>
+									</div>
+									<div class="avia__data-item col">
+										<div class="avia__data-title"><i class="icon icon-arrows"></i><span>Характеристики</span></div>
+										<div class="avia__data-content">340x129x130 CM / 11'1"x4'2"x4'3"</div>
+									</div>
+								</div>
+								<a href="" class="avia__button col block"><i class="icon icon-arrow-white"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page">
+			<div class="page__title title">Услуги</div>
+			<div class="page__wrap container">
+				<div class="services-list">
+					<div class="services-list__list">
+						<div class="services-list__item">
+							<div class="services-list__title subtitle">Самолеты</div>
+							<div class="services-list__text">Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка.</div>
+						</div>
+						<div class="services-list__item">
+							<div class="services-list__title subtitle">Вертолеты</div>
+							<div class="services-list__text">Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка.</div>
+						</div>
+						<div class="services-list__item">
+							<div class="services-list__title subtitle">Наземный транспорт</div>
+							<div class="services-list__text">Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка.</div>
+						</div>
+						<div class="services-list__item">
+							<div class="services-list__title subtitle">Грузовой чартер</div>
+							<div class="services-list__text">Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка.</div>
+						</div>
+						<div class="services-list__item">
+							<div class="services-list__title subtitle">VIP чартер</div>
+							<div class="services-list__text">Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page">
+			<div class="page__title title">Заказать чартер</div>
+			<div class="page__wrap">
+				<div class="order__wrap">
+					<div class="container">
+						<div class="order__subtitle subtitle">Вы можете заказать чартерный рейс онлайн</div>
+						<div class="order__text">Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка. Lorem ipsum по большей части является элементом латинского текста классического автора и философа Цицерона. Слова и буквы были заменены добавлением или сокращением элементов, поэтому будет совсем неразумно пытаться передать содержание; это не гениально, не правильно, используется даже не понятный латинский.</div>
+					</div>
+				</div>
+				<div class="order">
+					<form>
+						<div class="container">
+							<div class="order__title"><i class="icon icon-plane-white"></i><span>Быстрая заявка</span></div>
+							<div class="order__desc">Сообщите нам свои требования, и один из наших чартерных экспертов предоставит вам цитату без обязательств как можно скорее. Поля, отмеченные *, обязательны для заполнения</div>
+							<div class="order__line">
+								<div class="input input_persona">
+									<p>Введите свои данные</p>
+									<input type="text" placeholder="Фамилия, имя, отчество">
+									<i class="icon icon-persona"></i>
+								</div>
+								<div class="input input_phone">
+									<p>Телефон</p>
+									<input type="text" placeholder="+7 (___) ___ __ __">
+									<i class="icon icon-phone-bold"></i>
+								</div>
+								<div class="input input_email">
+									<p>Email</p>
+									<input type="text" placeholder="Email">
+									<i class="icon icon-email-bold"></i>
+								</div>
+							</div>
+							<div class="order__line">
+								<div class="input input_minni">
+									<p>Тип самолета</p>
+									<div class="radio">
+										<input type="radio" name="type" value="1" id="radio-type-1" checked>
+										<label for="radio-type-1">Пассажир</label>
+									</div>
+								</div>
+								<div class="input input_minni">
+									<p>Кол-во пассажиров</p>
+									<input type="text" placeholder="10">
+									<i class="icon icon-persona"></i>
+								</div>
+								<div class="input">
+									<p>Откуда</p>
+									<input type="text" placeholder="Екатеринбург">
+									<i class="icon icon-marker-small"></i>
+								</div>
+								<div class="input input_date">
+									<p>Дата вылета</p>
+									<input type="text" placeholder="11.05.2017">
+									<i class="icon icon-calendar-blue"></i>
+								</div>
+								<div class="input input_time">
+									<p>Время вылета</p>
+									<div class="time">
+										<input type="text" placeholder="12">
+										<input type="text" placeholder="00">
+									</div>
+									<i class="icon icon-time"></i>
+								</div>
+							</div>
+							<div class="order__line">
+								<div class="input input_minni input_p">
+									<p></p>
+									<div class="radio">
+										<input type="radio" name="type" value="2" id="radio-type-2">
+										<label for="radio-type-2">Грузовой</label>
+									</div>
+								</div>
+								<div class="input input_minni">
+									<p>Вес груза</p>
+									<input type="text" placeholder="3 тонны">
+									<i class="icon icon-bag"></i>
+								</div>
+								<div class="input">
+									<p>Куда</p>
+									<input type="text" placeholder="Санкт-Петербург">
+									<i class="icon icon-marker-small"></i>
+								</div>
+								<div class="input input_date">
+									<p>Дата обратного вылета</p>
+									<input type="text" placeholder="11.05.2017">
+									<i class="icon icon-calendar-blue"></i>
+								</div>
+								<div class="input input_time">
+									<p>Время обратного вылета</p>
+									<div class="time">
+										<input type="text" placeholder="12">
+										<input type="text" placeholder="00">
+									</div>
+									<i class="icon icon-time"></i>
+								</div>
+							</div>
+							<div class="order__line">
+								<div class="textarea">
+									<p>Примечание</p>
+									<textarea></textarea>
+								</div>
+								<div class="captcha"><div class="g-recaptcha" data-sitekey="6Ld4vCoUAAAAADRQUzsFoO2WE3J4FE6It8_0dBdz"></div></div>
+							</div>
+							<button class="order__button button button_orange center">Заказать чартер</button>
+						</div>
+					</form>
+				</div>
+				<div class="question">
+					<div class="container">
+						<div class="question__title title">Задать вопрос</div>
+						<div class="question__desc subtitle">Вы можете задать вопрос</div>
+						<div class="question__form">
+							<form>
+								<div class="input input_persona"><input type="text" placeholder="Ф.И.О."><i class="icon icon-persona"></i></div>
+								<div class="input"><input type="text" placeholder="Email"><i class="icon icon-email-bold"></i></div>
+								<div class="input input_phone"><input type="text" placeholder="Телефон"><i class="icon icon-phone-bold"></i></div>
+								<div class="textarea block"><textarea placeholder="Введите Ваш вопрос"></textarea></div>
+								<div class="question__line">
+									<div class="captcha"><div class="g-recaptcha" data-sitekey="6Ld4vCoUAAAAADRQUzsFoO2WE3J4FE6It8_0dBdz"></div></div>
+									<button class="question__button button button_orange">Заказать чартер</button>
+								</div>
+							</form>
+						</div>
+						<div class="question__text">Lorem ipsum – псевдо-латинский текст, который используется для веб дизайна, типографии, оборудования, и распечатки вместо английского текста для того, чтобы сделать ударение не на содержание, а на элементы дизайна. Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка. Lorem ipsum по большей части является элементом латинского текста классического автора и философа Цицерона. Слова и буквы были заменены добавлением или сокращением элементов, поэтому будет совсем неразумно пытаться передать содержание; это не гениально, не правильно, используется даже не понятный латинский.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container row">
+			<div class="footer__dev col col-3">
+				<div class="dev">
+					<div class="dev__title">Дизайн-студия <a href="" target="_blank">"INNOV"</a></div>
+					<div class="dev__image"><img src="upload/logos/INNOV.png" alt=""></div>
+					<div class="dev__desc"><a href="" target="_blank">разработка и продвижение сайтов</a></div>
+				</div>
+			</div>
+			<div class="footer__middle col col-3">
+				<div class="footer__logo">
+					<div class="logo">
+						<div class="logo__image"><img src="upload/logos/AeroConsulting.png" alt=""></div>
+						<div class="logo__title font-Magistral">АэроКонсалтинг</div>
+					</div>
+				</div>
+				<div class="footer__counters">
+					<ul>
+						<li><a href=""><img src="" alt=""></a></li>
+						<li><a href=""><img src="" alt=""></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__contacts col col-3">
+				<div class="phone"><i class="icon icon-phone-normal"></i><a href="tel:88312113183">8 (831)211-31-83</a></div>
+				<div class="email"><i class="icon icon-email"></i><a href="mailto:email@mail.ru">Email@mail.ru</a></div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
